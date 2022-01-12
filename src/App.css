@@ -1,0 +1,70 @@
+header{
+  display: flex;
+}
+
+h1{
+  color: azure;
+  margin-top:20px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  cursor: not-allowed;
+  margin-right: 15px;
+  
+}
+h1:hover{
+  color: #F93154;
+  cursor: grabbing;
+  border: 1px ;
+  text-transform: uppercase;
+}
+
+body{
+  background-color: #282c34;
+}
+
+button {
+  background-color: #212529; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.sign-in {
+  color: azure;
+  background: #282c34;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 6px solid rgb(0, 17, 92);
+ 
+  margin-top: 200px;
+  
+}
+.sign-in:hover{
+  color: white;
+  border: 6px solid rgb(0, 17, 92);
+  background: rgb(0, 45, 247);
+  ;
+}
+
+.sign-out {
+  border: 8px solid rgb(0, 17, 92);
+  color: azure;
+  border-radius: 12px 12px 10px 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.sign-out:hover{
+  color: azure;
+  border: 8px solid rgb(0, 17, 92);
+  background: rgb(0, 45, 247);
+  font-size: 20px;
+}
